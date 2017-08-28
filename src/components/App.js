@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import moment from 'moment';
 import '../styles/App.css';
 import EarthquakeList from '../data/EarthquakeList.js';
 import EarthquakeInfo from '../data/EarthquakeInfo.js';

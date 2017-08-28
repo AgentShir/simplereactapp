@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import earthquakes from '../data/earthquakes.js'
 
 class EarthquakeInfo extends Component{
 	render(){
