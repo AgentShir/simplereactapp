@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
 import moment from 'moment';
 import '../styles/App.css';
-import EarthquakeList from '../data/EarthquakeList';
-import EarthquakeInfo from '../data/EarthquakeInfo';
+import EarthquakeList from '../data/EarthquakeList.js';
+import EarthquakeInfo from '../data/EarthquakeInfo.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-          <img src="{logo}" className="App-logo" alt="logo" />
             <div className="title">
-              <div className="my-header">
-              Earthquakes!
-              </div>
-                <EarthquakeInfo />
-                <EarthquakeList />
-        </div>
+              <div className="my-header">"Earthquakes!"</div>
+            </div>
+          <EarthquakeInfo />
+          <EarthquakeList />
       </div>
-    );
+    )
   }
 }
 
