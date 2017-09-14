@@ -20,7 +20,7 @@ class EarthquakeList extends Component{
 	                </div>
 	              </div>
 	            </div>
-	      		}
+	      		
 	      	</div>
 	    	</div>
 	  		)
