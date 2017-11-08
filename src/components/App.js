@@ -6,12 +6,16 @@ import EarthquakeInfo from '../data/EarthquakeInfo.js';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-            <div className="title">
-              <div className="my-header">"Earthquakes!"</div>
+      <div className="wrapper">
+        <div className="App">
+              <div className="title">
+                <div className="my-header">"Earthquakes!"</div>
+              </div>
+              <div className="wrapper">
+            <EarthquakeInfo />
+            <EarthquakeList />
             </div>
-          <EarthquakeInfo />
-          <EarthquakeList />
+        </div>
       </div>
     )
   }

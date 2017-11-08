@@ -36,6 +36,9 @@
 
 .quake-list {
   padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -51,4 +54,12 @@
   height: 200px;
   background-image: url('http://www.sanandreasfault.org/4020_A.jpg');
   background-position: center;
+}
+
+.wrapper {
+
+}
+
+.container {
+
 }
