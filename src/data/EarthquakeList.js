@@ -20,8 +20,14 @@ class EarthquakeList extends Component{
 	                </div>
 	              </div>
 	            </div>
+<<<<<<< HEAD
 						</div>
 					</div>
+=======
+	      		
+	      	</div>
+	    	</div>
+>>>>>>> d199e9e106329ff16f621da3f6ad828d8bc36e99
 	  		)
 	  })
 	)
